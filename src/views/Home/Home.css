@@ -2,12 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
     height: 100vh;
     background-color: #1e1d1d;
+    top:10px;
 }
 .Heading{
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: bold;
     color: white;
+}
+.sub-title{
+    font-size: 18px;
+    color: gray;
+    margin-top: -5px;
 }
