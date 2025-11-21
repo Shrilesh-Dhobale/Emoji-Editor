@@ -17,3 +17,13 @@
     color: gray;
     margin-top: -5px;
 }
+.emoji-grid{
+    border:solid #87cded;
+    margin-top: 20px;
+    padding:30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    border-radius: 10px;
+    background-color: #c4eff0;
+}
