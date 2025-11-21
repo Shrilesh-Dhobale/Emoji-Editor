@@ -26,14 +26,19 @@
 .emoji-grid{
     border:solid #87cded;
     margin-top: 20px;
-    padding:30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    height:120px;
+    width:120px;
     display: grid;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     background-color: #c4eff0;
 }
 .controls-container{
     margin-top: 20px;
-    background-color: #c4eff0;
+    background-color: #f9fbfb;
+    font-size: 10px;
+    font-family: cursive;
+    border:#192126 solid;
+    border-radius:9px;
 }
