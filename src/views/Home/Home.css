@@ -36,9 +36,36 @@
 }
 .controls-container{
     margin-top: 20px;
-    background-color: #f9fbfb;
     font-size: 10px;
     font-family: cursive;
+    display: flex;
+    
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    
+}
+.left-controls{
+    display: flex;
+    flex-direction: column;
+    
+    left: 10px;
+    position: absolute;
+    justify-content: left;
     border:#192126 solid;
+    background-color: #f9fbfb;
     border-radius:9px;
+    gap: 5px;
+    padding: 10px;
+}
+.right-controls{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:10px;
+    border:#192126 solid;
+    background-color: #f9fbfb;
+    border-radius:9px;
+    gap: 5px;
+    padding: 10px;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Controls.css'
 function Controls({operation, setOperation}) {
+  const [value, setValue] = React.useState(50);
   return (
     <div>
         <div className="font-size">

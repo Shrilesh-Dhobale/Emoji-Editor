@@ -15,8 +15,18 @@ function Home() {
       </div>
       <div className="controls-container">
         <div className='left-controls'>
-          
+          <Controls operation={"Font Size:"} />
+          <Controls operation={"Rotation:"} />
+          <Controls operation={"Blur:"} />
+          <Controls operation={"Brightness:"} />
         </div>
+        <div className='right-controls'>
+          <Controls operation={"Opacity:"} />
+          <Controls operation={"Contrast:"} />
+          <Controls operation={"Brightness:"} />
+          <Controls operation={"Color:"} />
+        </div>
+
       </div>
     </div>
   )
