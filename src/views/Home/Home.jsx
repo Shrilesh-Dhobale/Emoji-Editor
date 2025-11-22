@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Controls from '../../components/Controls/Controls.jsx'
 
 function Home() {
   

@@ -1,9 +1,12 @@
 import React from 'react'
 import './Controls.css'
-function Controls({}) {
+function Controls({operation, setOperation}) {
   return (
     <div>
-      
+        <div className="font-size">
+            <h2 className='control-heading'>{operation}</h2>
+            <input type="range" min="10" max="100"  />
+        </div>
     </div>
   )
 }
