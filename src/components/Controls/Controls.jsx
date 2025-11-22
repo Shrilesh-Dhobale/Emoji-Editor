@@ -1,6 +1,6 @@
 import React from 'react'
-
-function Controls() {
+import './Controls.css'
+function Controls({}) {
   return (
     <div>
       
