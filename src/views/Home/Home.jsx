@@ -26,7 +26,10 @@ function Home() {
           <Controls operation={"Brightness:"} />
           <Controls operation={"Color:"} />
         </div>
-
+        <div className='btns'>
+          <button className='reset-btn'>Reset</button>
+          <button className='clr-btn'>Clear</button>
+        </div>
       </div>
     </div>
   )
