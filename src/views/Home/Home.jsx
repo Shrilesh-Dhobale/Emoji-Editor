@@ -14,9 +14,7 @@ function Home() {
       </div>
       <div className="controls-container">
         <div className='left-controls'>
-          <div className="font-size">
-            <h2 className='control-heading'>Font Size:</h2>
-          </div>
+          
         </div>
       </div>
     </div>
